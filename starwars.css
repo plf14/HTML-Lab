@@ -355,7 +355,7 @@
     background: #4fc3f7;
     z-index: 10;
     border-radius: 4px 4px 0 0;
-    transform: rotate(30deg);
+    transform: rotate(0deg);
     animation-name: saber;
     animation-duration: 6s;
     animation-timing-function: linear;
@@ -1084,7 +1084,7 @@
     background: #e53935;
     z-index: 10;
     border-radius: 50% 50% 0 0;
-    transform: rotate(-30deg);
+    transform: rotate(0deg);
     animation-name: saber;
     animation-duration: 6s;
     animation-timing-function: linear;
