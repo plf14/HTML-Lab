@@ -1,0 +1,61 @@
+#demo {
+    background: #D0E4F5 url("https://bulletin.georgetown.edu/wp-content/uploads/sites/228/2019/08/20100621-Campus_2_1348-e1565104000282.jpg") no-repeat scroll 0 0;
+    }
+
+#borderDemo {
+    border: 5px double #9CA457;
+    width: 1080px;
+    height: 360px;
+    }
+
+#demoShadow {
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, inset 5px 5px 15px 5px rgba(0,0,0,0);
+    }
+
+div.darkTable {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: 2px solid #000000;
+    background-color: #63666A;
+    width: 1080px;
+    height: 360px;
+    text-align: center;
+    border-collapse: collapse;
+    }
+    .divTable.darkTable .divTableCell, .divTable.darkTable .divTableHead {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+    }
+    .divTable.darkTable .divTableBody .divTableCell {
+    font-size: 13px;
+    color: #E6E6E6;
+    }
+    .divTable.darkTable .divTableRow:nth-child(even) {
+    background: #041E42;
+    }
+    .divTable.darkTable .divTableHeading {
+    background: #041E42;
+    border-bottom: 3px solid #000000;
+    }
+    .divTable.darkTable .divTableHeading .divTableHead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+    }
+    .divTable.darkTable .divTableHeading .divTableHead:first-child {
+    border-left: none;
+    }
+    
+    .darkTable .tableFootStyle {
+    font-size: 12px;
+    }
+    /* DivTable.com */
+    .divTable{ display: table; }
+    .divTableRow { display: table-row; }
+    .divTableHeading { display: table-header-group;}
+    .divTableCell, .divTableHead { display: table-cell;}
+    .divTableHeading { display: table-header-group;}
+    .divTableFoot { display: table-footer-group;}
+    .divTableBody { display: table-row-group;}
